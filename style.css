@@ -1,0 +1,91 @@
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 15px;
+    /* background-image: linear-gradient(to right bottom, #48eabe, #0de1da, #2dd4ea, #5fc7ed, #85b8e3); */
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+hr {
+    width: 50%;
+    height: 2px;
+    /* background-color: brown; */
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+p.bio{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span.slogan {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgba(51, 51, 51, 0.7);
+    margin-bottom: 35px;
+}
+
+.social-img ul {
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social-img ul li{
+    display: inline;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+    margin : 5px;
+}
+
+.social-img ul li:hover{
+    background: #ccc;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.work {
+    margin-bottom: 20px;
+}
+
+.work img {
+    border-radius: 5%;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(51, 51, 51, 0.5);
+}
